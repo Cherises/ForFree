@@ -10,5 +10,5 @@ public class App
     {
         System.out.println( "Hello World!" );
     }
-    public static void free(){System.out.println( "Hello World!" );}
+    public static void free(){System.out.println( "Hello Worldsadas!" );}
 }
