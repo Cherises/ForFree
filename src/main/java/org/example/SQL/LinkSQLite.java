@@ -22,7 +22,7 @@ public class LinkSQLite {
     }
     public void checkTable(){
         try {
-            String sql = "create table if not exists article(tid AUTO_INCREMENT,title varchar(255) not null,resume varchar(255) not null,label varchar(255) not null,cdate datetime not null,mdate datetime not null,value text,primary key(tid))";
+            String sql = "create table if not exists article(title varchar(255) not null,resume varchar(255) not null,label varchar(255) not null,cdate datetime not null,mdate datetime not null,value text,primary key(tid))";
             statement.executeUpdate(sql);
         }catch (Exception e){
             e.printStackTrace();
